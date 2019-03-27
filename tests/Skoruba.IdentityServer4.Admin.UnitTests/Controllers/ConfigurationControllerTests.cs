@@ -803,8 +803,8 @@ namespace Skoruba.IdentityServer4.Admin.UnitTests.Controllers
 
             services.AddAdminServices<AdminDbContext>();
 
-            services.AddAdminAspNetIdentityServices<AdminDbContext, UserDto<int>, int, RoleDto<int>, int, int, int,
-                UserIdentity, UserIdentityRole, int, UserIdentityUserClaim, UserIdentityUserRole,
+            services.AddAdminAspNetIdentityServices<AdminDbContext, UserDto<Guid>, Guid, RoleDto<Guid>, Guid, Guid, Guid,
+                UserIdentity, UserIdentityRole, Guid, UserIdentityUserClaim, UserIdentityUserRole,
                 UserIdentityUserLogin, UserIdentityRoleClaim, UserIdentityUserToken>();
 
             services.AddSession();
