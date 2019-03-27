@@ -1,5 +1,7 @@
 ## This fork uses "Guid" instead of "int" for Asp.Net Core Identity entities.
-
+- Create a NuGet package for Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts
+- Create a NuGet package for Skoruba.IdentityServer4.Admin.EntityFramework.Identity
+- Replace this packages in your Admin project.
 
 ![Logo](docs/Images/Skoruba.IdentityServer4.Admin-Logo-ReadMe.png)
 
