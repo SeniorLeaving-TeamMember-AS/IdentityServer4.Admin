@@ -1,3 +1,6 @@
+## This fork uses "Guid" instead of "int" for Asp.Net Core Identity entities.
+
+
 ![Logo](docs/Images/Skoruba.IdentityServer4.Admin-Logo-ReadMe.png)
 
 # Skoruba.IdentityServer4.Admin
